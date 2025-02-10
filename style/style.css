@@ -1,3 +1,77 @@
 .logo {
     width: 2em;
 }
+
+header .lt {
+    display: flex;
+}
+h1{
+    font-size: 1em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+nav{
+    font-size: 0.7em;
+   margin: 1.3em;
+}
+body {
+    padding: 0.5,0.7em;
+}
+
+.acceuil{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.r img{
+    height: 50vh;
+    width: 100%;
+   
+}
+.l p{
+    font-size: 0.8em;
+}
+
+article img {
+    height: 50vh;
+    width: 100%;
+}
+
+.catalogue{
+    background-color: rgb(248, 233, 214);
+    border: 1px solid;
+    border-radius: 0.2em;
+    margin-left: 42.5%;
+}
+h2,h3{
+    text-align: center;
+}
+
+article{
+    border: 1.3px solid rgb(27, 27, 27);
+    margin-bottom: 2em;
+    padding: 1em;
+}
+button.article{
+    
+    margin-left: 42.5%;
+    border-radius: 0.7em;
+    padding: 0.3em;
+    border: 1.3px solid rgb(27, 27, 27);
+}
+@media screen and (min-width:550px){
+    
+    .r img{
+        height: 80vh;
+        width: 100%;
+    }
+   
+}
+
+@media screen and (min-width:900px){
+
+}
