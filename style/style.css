@@ -171,3 +171,76 @@ button.article{
     
    
 }
+
+@media screen and (min-width:1100px){
+    .acceuil{
+        display: flex;
+        justify-content: flex-start;
+        padding: 2em;
+      }
+      .r img{
+        height: 75vh;
+        width: 100%;
+       padding-top: 8em;
+       
+      }
+      .l {
+        width: 40%;
+      }
+      .l p{
+        font-size: 0.7em;
+      }
+      .logo {
+        width: 5em;
+    }
+    h1{
+        font-size: 3em;
+    }
+    .divarticle{
+        display: flex;
+    }
+    article{
+        border: 1.3px solid rgb(27, 27, 27);
+        margin: 50px;
+        width: 25%;
+        display: inline-block;
+        
+    }
+    article img {
+        height: 50vh;
+        width: 100%;
+    }
+    .titre{
+        background-image: url('../docs/demande-client/00.assets/coffees/589100954.png');
+        width: 100%;
+        height: 60vh;
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        text-align: center;
+     margin-top: 0em;
+    
+    }
+    .titreimg{
+        padding-top: 10%;
+        font-size: 10em;
+        color: blanchedalmond;
+    
+    }
+    .btnall{
+        margin-left: 30%;
+        border-radius: 0.7em;
+        padding: 0.3em;
+        border: 1.3px solid rgb(27, 27, 27);
+        margin-bottom: 2.5em;
+        width: 50em;
+    }
+    
+    nav{
+        font-size: 1em;
+       margin: 3em;
+    }
+   
+    
+   
+}
