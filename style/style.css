@@ -73,5 +73,39 @@ button.article{
 }
 
 @media screen and (min-width:900px){
-
+    .acceuil{
+        display: flex;
+        gap: 20px;
+        justify-content: flex-start;
+        padding: 2em;
+      }
+      .r img{
+        height: 100vh;
+        width: 100%;
+       padding-top: 8em;
+       
+      }
+      .l{
+        width: 40%;
+      }
+      .logo {
+        width: 5em;
+    }
+    h1{
+        font-size: 3em;
+    }
+    .divarticle{
+        display: flex;
+    }
+    article{
+        border: 1.3px solid rgb(27, 27, 27);
+        margin: 60px;
+        width: 25%;
+        display: inline-block;
+        
+    }
+    article img {
+        height: 50vh;
+        width: 100%;
+    }
 }
