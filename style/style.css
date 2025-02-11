@@ -120,7 +120,7 @@ button.article{
     background-color: whitesmoke;
 }
 main{
-    background-color: rgb(109, 31, 3);
+    background-color: rgb(240, 119, 75);
     color: beige;
 }
 a{
@@ -240,7 +240,7 @@ footer{
     padding: 0.2em;
    }
    main{
-    background-color: rgb(109, 31, 3);
+    background-color: rgb(240, 119, 75);
     color: beige;
 }
 a{
@@ -344,10 +344,11 @@ footer{
     li{
         font-size: 1.2em;
         padding: 0.2em;
+        color: black;
        }
 
        main{
-        background-color: rgb(184, 62, 18);
+        background-color: rgb(240, 119, 75);
         color: beige;
         margin-bottom: 0;
         padding-bottom: 0;
