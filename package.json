@@ -1,0 +1,31 @@
+{
+  "name": "s09-ocoffee-thibaudhusson",
+  "version": "1.0.0",
+  "description": "## Information du projet",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Samoussas/S09-ocoffee-Thibaudhusson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Samoussas/S09-ocoffee-Thibaudhusson/issues"
+  },
+  "homepage": "https://github.com/O-clock-Samoussas/S09-ocoffee-Thibaudhusson#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}

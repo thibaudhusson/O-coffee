@@ -66,7 +66,7 @@ button.article{
 }
 
 .titre{
-    background-image: url('../docs/demande-client/00.assets/coffees/589100954.png');
+    background-image: url('/visuals/coffees/589100954.png');
     width: 100%;
     height: 50vh;
     background-size: cover; 
@@ -101,7 +101,7 @@ button.article{
    
 }
 .titre2{
-    background-image: url('../docs/demande-client/00.assets/coffees/302932754.png');
+    background-image: url('/visuals/coffees/302932754.png');
     width: 100%;
     height: 50vh;
     background-size: cover; 
@@ -144,7 +144,7 @@ footer{
     color: black;
 }
 .titre3{
-    background-image: url('../docs/demande-client/00.assets/coffees/100955894.png');
+    background-image: url('/visuals/coffees/100955894.png');
     width: 100%;
     height: 40vh;
     background-size: cover; 
@@ -152,9 +152,30 @@ footer{
     background-position: center; 
    
 }
+.titreimg3{
+    padding-top: 81%;
+    font-size: 2.5em;
+    color: rgb(145, 47, 35);
+    margin-left: 15%;
+    opacity: 0.8;
+}
 
+.aa{
+    
+    border: 1.3px solid rgb(27, 27, 27);
+     
+   margin-top: 1em;
+   background-color: rgb(212, 144, 42);
 
+}
 
+.catalogue{
+    margin-left: 34%;
+}
+.TD{
+    font-size: 3em;
+    text-align: center;
+}
 
 
 @media screen and (min-width:1100px){
@@ -197,7 +218,7 @@ footer{
         width: 100%;
     }
     .titre{
-        background-image: url('../docs/demande-client/00.assets/coffees/589100954.png');
+        background-image: url('/visuals/coffees/589100954.png');
         width: 100%;
         height: 60vh;
         background-size: cover; 
@@ -211,6 +232,7 @@ footer{
         padding-top: 10%;
         font-size: 10em;
         color: blanchedalmond;
+        opacity: 0.75;
     
     }
     .btnall{
@@ -276,7 +298,7 @@ footer{
     color: black;
 }
 .titre3{
-    background-image: url('../docs/demande-client/00.assets/coffees/100955894.png');
+    background-image: url('/visuals/coffees/100955894.png');
     width: 100%;
     height: 60vh;
     background-size: cover; 
@@ -284,7 +306,22 @@ footer{
     background-position: center; 
    
 }
+.titreimg3{
+    padding-top: 25.6%;
+    font-size: 7em;
+    color: rgb(145, 47, 35);
+    margin-left: 25%;
+    opacity: 0.8;
 
+
+}
+.aa{
+    
+    border: 1.3px solid rgb(27, 27, 27);
+   margin-top: 1em;
+   background-color: rgb(212, 144, 42);
+    
+}
 
 }
 
@@ -326,7 +363,7 @@ footer{
         width: 100%;
     }
     .titre{
-        background-image: url('../docs/demande-client/00.assets/coffees/589100954.png');
+        background-image: url('/visuals/coffees/589100954.png');
         width: 100%;
         height: 60vh;
         background-size: cover; 
@@ -340,6 +377,7 @@ footer{
         padding-top: 6%;
         font-size: 10em;
         color: blanchedalmond;
+        opacity: 0.75;
     
     }
     .btnall{
@@ -401,13 +439,34 @@ footer{
 
     }
     .titre3{
-        background-image: url('../docs/demande-client/00.assets/coffees/100955894.png');
+        background-image: url('/visuals/coffees/100955894.png');
         width: 100%;
         height: 70vh;
         background-size: cover; 
         background-repeat: no-repeat; 
         background-position: center; 
        
+    }
+    .titreimg3{
+        padding-top: 25.6%;
+        font-size: 7em;
+        color: rgb(145, 47, 35);
+        margin-left: 25%;
+        opacity: 0.8;
+    
+    }
+    .aa{
+    margin-left: 20%;
+        border: 1.3px solid rgb(27, 27, 27);
+         
+       margin-top: 1.5em;
+       background-color: rgb(212, 144, 42);
+        width: 50%;
+        
+    
+    }
+    .catalogue{
+        margin-left: 39%;
     }
     
       
