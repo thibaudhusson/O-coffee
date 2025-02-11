@@ -89,6 +89,8 @@ button.article{
     padding: 0.3em;
     border: 1.3px solid rgb(27, 27, 27);
     margin-bottom: 2.5em;
+    color: rgb(250, 241, 230);
+    background-color: grey;
     
 }
 .hidden{
@@ -117,79 +119,30 @@ button.article{
     border: solid black;
     background-color: whitesmoke;
 }
-
-
-
-@media screen and (min-width:1900px){
-    .acceuil{
-        display: flex;
-        gap: 170px;
-        justify-content: flex-start;
-        padding: 2em;
-      }
-      .r img{
-        height: 100vh;
-        width: 100%;
-       padding-top: 8em;
-       
-      }
-      .l{
-        width: 40%;
-      }
-      .logo {
-        width: 5em;
-    }
-    h1{
-        font-size: 3em;
-    }
-    .divarticle{
-        display: flex;
-    }
-    article{
-        border: 1.3px solid rgb(27, 27, 27);
-        margin: 60px;
-        width: 25%;
-        display: inline-block;
-        
-    }
-    article img {
-        height: 50vh;
-        width: 100%;
-    }
-    .titre{
-        background-image: url('../docs/demande-client/00.assets/coffees/589100954.png');
-        width: 100%;
-        height: 60vh;
-        background-size: cover; 
-        background-repeat: no-repeat; 
-        background-position: center; 
-        text-align: center;
-     margin-top: 0em;
-    
-    }
-    .titreimg{
-        padding-top: 6%;
-        font-size: 10em;
-        color: blanchedalmond;
-    
-    }
-    .btnall{
-        margin-left: 30%;
-        border-radius: 0.7em;
-        padding: 0.3em;
-        border: 1.3px solid rgb(27, 27, 27);
-        margin-bottom: 2.5em;
-        width: 50em;
-    }
-    
-    nav{
-        font-size: 1em;
-       margin: 3em;
-    }
-   
-    
-   
+main{
+    background-color: rgb(109, 31, 3);
+    color: beige;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+.error{
+    width: 100%;
+    height: 87vh;
+}
+footer{
+    padding: 0.5em;
+    text-align: center;
+    border: 1px solid gray;
+   font-style: italic;
+   font-size: 0.6em;
+   background-color: rgb(235, 233, 233);
+}
+
+
+
+
 
 @media screen and (min-width:1100px){
     .acceuil{
@@ -254,6 +207,8 @@ button.article{
         border: 1.3px solid rgb(27, 27, 27);
         margin-bottom: 2.5em;
         width: 50em;
+        color: rgb(250, 241, 230);
+        background-color: grey;
     }
     
     nav{
@@ -284,6 +239,139 @@ button.article{
     font-size: 1.8em;
     padding: 0.2em;
    }
+   main{
+    background-color: rgb(109, 31, 3);
+    color: beige;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.error{
+    width: 100%;
+    height: 65vh;
+}
+footer{
+    padding: 3em;
+    text-align: center;
+    border: 1px solid gray;
+   font-style: italic;
+   background-color: rgb(235, 233, 233);
+}
+
+
+}
+
+
+   @media screen and (min-width:1900px){
+    .acceuil{
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start;
+        padding: 2em;
+      }
+      .r img{
+        height: 80vh;
+        width: 100%;
+       padding-top: 6em;
+       
+      }
+      .l{
+        width: 50%;
+      }
+      .logo {
+        width: 5em;
+    }
+    h1{
+        font-size: 3em;
+    }
+    .divarticle{
+        display: flex;
+    }
+    article{
+        border: 1.3px solid rgb(27, 27, 27);
+        margin: 60px;
+        width: 25%;
+        display: inline-block;
+        
+    }
+    article img {
+        height: 50vh;
+        width: 100%;
+    }
+    .titre{
+        background-image: url('../docs/demande-client/00.assets/coffees/589100954.png');
+        width: 100%;
+        height: 60vh;
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        text-align: center;
+     margin-top: 0em;
+    
+    }
+    .titreimg{
+        padding-top: 6%;
+        font-size: 10em;
+        color: blanchedalmond;
+    
+    }
+    .btnall{
+        margin-left: 30%;
+        border-radius: 0.7em;
+        padding: 0.3em;
+        border: 1.3px solid rgb(27, 27, 27);
+        margin-bottom: 2.5em;
+        width: 50em;
+        color: rgb(250, 241, 230);
+        background-color: grey;
+    }
+    
+    nav{
+        font-size: 1em;
+       margin: 3em;
+    }
+    .a{
+        border: 0px solid rgb(19, 3, 3);
+        
+         width: 80%;
+         
+     }
+     .a img{
+        height: 55vh;
+        width: 65%;
+    }
+    li{
+        font-size: 1.2em;
+        padding: 0.2em;
+       }
+
+       main{
+        background-color: rgb(184, 62, 18);
+        color: beige;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .error{
+        width: 100%;
+        height: 65vh;
+    }
+    footer{
+        padding: 3em;
+        text-align: center;
+        border: 1px solid gray;
+       font-style: italic;
+       background-color: rgb(235, 233, 233);
+    }
+    
+      
+
+    }
+
     
    
-}
