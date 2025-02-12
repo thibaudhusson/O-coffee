@@ -33,39 +33,21 @@
         <h2>Nouveauté :</h2>
         
         <div classe="divarticle">
+            <% for( coffee of coffees ) { %>
             
             <article>
-                <img src="/visuals/coffees/295432730.png" alt="image café espresso">
-                <h3>Espresso</h3>
+                <img src="/visuals/coffees/<%= coffee.name %>.png" alt="image café espresso">
+                <h3><%= coffee.name %></h3>
                 <ul>
-                    <li><aside>Description : Café fort et concentré préparé en faisant passer de l'eau chaude à travers du café finement moulu.</aside></li>
-                    <li>Prix au kilo : 20.99 €</li>
-                    <li>Caractéristique principale : Corsé</li>   
+                    <li><aside>Description : <%= coffee.description %></aside></li>
+                    <li>Prix au kilo : <%= coffee.price %> €</li>
+                    <li>Caractéristique principale : <%= coffee.caracteristique %></li>   
                 </ul>
-                <button class = article><a href="/detail">Découvrir</a></button>
+                <button class = article><a href="/detail/<%= coffee.id %>">Découvrir</a></button>
             </article>
 
-            <article>
-                <img src="/visuals/coffees/582954954.png" alt="image café Guatemalan Antigua">
-                <h3>Guatemalan Antigua</h3>
-                <ul>
-                    <li><aside>Description : Café corsé avec des nuances chocolatées et une pointe d'épice.</aside></li>
-                    <li>Prix au kilo : 21.25 €</li>
-                    <li>Caractéristique principale : Corsé</li>
-                </ul>
-                <button class = article><a href="/detail">Découvrir</a></button>
-            </article>
+            <% } %>
 
-            <article>
-                <img src="/visuals/coffees/256505890.png" alt="image café Sumatra Mandheling">
-                <h3>Sumatra Mandheling</h3>
-                <ul>
-                    <li><aside>Description : Café profond et terreux avec un corps lourd et une faible acidité.</aside></li>
-                    <li>Prix au kilo : 19.95 €</li>
-                    <li>Caractéristique principale : Corsé</li>   
-                </ul>
-                <button class = article><a href="/detail">Découvrir</a></button>
-            </article>
         </div>
     </div>
 <%- include('./partials/footer') %>

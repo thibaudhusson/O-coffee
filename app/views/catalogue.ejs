@@ -7,35 +7,22 @@
         </div>
 
         <div>
+           <% for( coffee of coffees1 ) { %>
+           
+          
+           
+            
             <article>
-                <h2>Espresso</h2>
+                <h2><%= coffee.name %></h2>
                 <ul>
-                    <img src="/visuals/coffees/295432730.png" alt="image café">
-                    <li>Caractéristique principale : Corsé</li>
-                    <li>Disponible : Oui</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
+                    <img src="/visuals/coffees/<%= coffee.name %>.png" alt="image café">
+                    <li>Caractéristique principale : <%= coffee.caracteristique %></li>
+                    <li>Disponible : <%= coffee.dispo %></li>
+                    <button class = article><a href="/detail/<%= coffee.id %>">Découvrir</a></button>
                 </ul>
             </article>
+            <% } %>
 
-            <article>
-                <h2>Columbian</h2>
-                <ul>
-                    <img src="/visuals/coffees/134009550.png" alt="image café">
-                    <li>Caractéristique principale : Acide</li>
-                    <li>Disponible : Oui</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Ethiopian Yirgacheffe</h2>
-                <ul>
-                    <img src="/visuals/coffees/256505890.png" alt="image café">
-                    <li>Caractéristique principale : Fruité</li>
-                    <li>Disponible : Oui</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
-                </ul>
-            </article>
         </div>
 
         <div>
@@ -43,135 +30,19 @@
 
             <div class="articlehandle hidden">
 
+            <% for( coffee of coffees2 ) { %>
+                
             <article>
-                <h2>Brazilian Santos</h2>
+                <h2><%= coffee.name %></h2>
                 <ul>
-                    <img src="/visuals/coffees/650753915.png" alt="image café">
-                    <li>Caractéristique principale : Doux</li>
-                    <li>Disponible : Oui</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
+                    <img src="/visuals/coffees/<%= coffee.name %>.png" alt="image café">
+                    <li>Caractéristique principale : <%= coffee.caracteristique %></li>
+                    <li>Disponible : <%= coffee.dispo %></li>
+                    <button class = article><a href="/detail/<%= coffee.id %>">Découvrir</a></button>
                 </ul>
             </article>
 
-            <article>
-                <h2>Guatemalan Antigua</h2>
-                <ul>
-                    <img src="/visuals/coffees/582954954.png" alt="image café Guatemalan Antigua">
-                    <li>Caractéristique principale : Corsé</li>
-                    <li>Disponible : Oui</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Kenyan AA</h2>
-                <ul>
-                    <img src="/visuals/coffees/753915650.png" alt="image café">
-                    <li>Caractéristique principale : Acide</li>
-                    <li>Disponible : Oui</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Sumatra Mandheling</h2>
-                <ul>
-                    <img src="/visuals/coffees/256505890.png" alt="image café Sumatra Mandheling">
-                    <li>Caractéristique principale : Corsé</li>
-                    <li>Disponible : Oui</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Costa Rican Tarrazu</h2>
-                <ul>
-                    <img src="/visuals/coffees/954589100.png" alt="image café">
-                    <li>Caractéristique principale : Acide</li>
-                    <li>Disponible : Oui</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Vietnamese Robusta</h2>
-                <ul>
-                    <img src="/visuals/coffees/891009545.png" alt="image café">
-                    <li>Caractéristique principale : Épicé</li>
-                    <li>Disponible : Oui</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Tanzanian Peaberry</h2>
-                <ul>
-                    <img src="/visuals/coffees/958090105.png" alt="image café">>
-                    <li>Caractéristique principale : Fruité/li>
-                    <li>Disponible : Oui</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Jamaican Blue Mountain</h2>
-                <ul>
-                    <img src="/visuals/coffees/327302954.png" alt="image café">
-                    <li>Caractéristique principale : Doux</li>
-                    <li>Disponible : Oui</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Rwandan Bourbon</h2>
-                <ul>
-                    <img src="/visuals/coffees/105589090.png" alt="image café">
-                    <li>Caractéristique principale : Fruité</li>
-                    <li>Disponible : Oui</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Panamanian Geisha</h2>
-                <ul>
-                    <img src="/visuals/coffees/582954954.png" alt="image café">
-                    <li>Caractéristique principale : Fruité</li>
-                    <li>Disponible : Oui</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Peruvian Arabica</h2>
-                <ul>
-                    <img src="/visuals/coffees/691550753.png" alt="image café">
-                    <li>Caractéristique principale : Chocolaté</li>
-                    <li>Disponible : Non</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Hawaiian Kona</h2>
-                <ul>
-                    <img src="/visuals/coffees/549549090.png" alt="image café">
-                    <li>Caractéristique principale : Doux</li>
-                    <li>Disponible : Non</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Nicaraguan Maragogipe</h2>
-                <ul>
-                    <img src="/visuals/coffees/100955890.png" alt="image café">
-                    <li>Caractéristique principale : Fruité</li>
-                    <li>Disponible : Non</li>
-                    <button class = article><a href="/detail">Découvrir</a></button>
-                </ul>
-            </article>
+            <% } %>
 
         </div>
         </div>

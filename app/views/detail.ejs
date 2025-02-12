@@ -8,15 +8,15 @@
     <main class="detail">
        
         <article class = aa>
-            <h2>Brazilian Santos</h2>
+            <h2><%= coffee.name %></h2>
             <ul>
-                <img src="/visuals/coffees/650753915.png" alt="image café">
-                <li>Description : Café doux et lisse avec un profil de saveur de noisette.</li>
-                <li>Référence : 134009550</li>
-                <li>Origine : Brésil</li>
-                <li>Prix au kilo : 17.80 €</li>
-                <li>Caractéristique principale : Doux</li>
-                <li>Disponible : Oui</li>
+                <img src="/visuals/coffees/<%= coffee.name %>.png" alt="image café">
+                <li>Description : <%= coffee.description %></li>
+                <li>Référence : <%= coffee.reference %></li>
+                <li>Origine : <%= coffee.origine %></li>
+                <li>Prix au kilo : <%= coffee.price %> €</li>
+                <li>Caractéristique principale : <%= coffee.caracteristique %></li>
+                <li>Disponible : <%= coffee.dispo %></li>
                 <button class = catalogue><a href="/catalogue">Catalogue</a></button>
             </ul>
         </article>
