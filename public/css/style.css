@@ -44,8 +44,10 @@ article img {
 .direction{
     background-color: rgb(248, 233, 214);
     border: 1px solid;
-    border-radius: 0.2em;
-    margin-left: 42.5%;
+    border-radius: 0.4em;
+    position: relative;
+    font-size: 1em;
+    left: 40%;
 }
 h2,h3{
     text-align: center;
@@ -58,7 +60,8 @@ article{
 }
 button.article{
     
-    margin-left: 43%;
+   position: relative;
+   left: 50%;
     border-radius: 0.7em;
     padding: 0.3em;
     border: 1.3px solid rgb(27, 27, 27);
@@ -76,15 +79,18 @@ button.article{
 
 }
 .titreimg{
-    padding-top: 40%;
-    font-size: 5em;
+    position: relative;
+    top: 2.5em;
+    left: 0.2em;
+    font-size: 4.2em;
     color: blanchedalmond;
     opacity: 0.75;
 
 }
 
 .btnall{
-    margin-left: 46.2%;
+   position: relative;
+   margin-left: 50%;
     border-radius: 0.7em;
     padding: 0.3em;
     border: 1.3px solid rgb(27, 27, 27);
@@ -153,7 +159,9 @@ footer{
    
 }
 .titreimg3{
-    padding-top: 81%;
+    position: relative;
+    top: 3.5em;
+    left: 0.4em;
     font-size: 2.5em;
     color: rgb(145, 47, 35);
     margin-left: 15%;
@@ -170,11 +178,52 @@ footer{
 }
 
 .catalogue{
-    margin-left: 34%;
+    border-radius: 0.5em ;
+        border: solid black;
+        background-color: whitesmoke;
+        
+        top: 0.8em;
+        
+        font-size: 1em;
 }
 .TD{
     font-size: 3em;
     text-align: center;
+}
+.r {
+    width: 100%;
+}
+.aa img{
+    width: 100%;
+  
+}
+
+.aa ul{
+    text-align: center;
+    list-style: none;
+    
+}
+ul {
+    text-align: center;
+    list-style: none;
+    
+}
+.article2{
+    position: relative;
+   
+    border-radius: 1em;
+    font-size: 0.8em;
+    border: 1.3px solid rgb(27, 27, 27);
+}
+
+
+@media screen and (min-width:800px){
+    .r {
+        
+        width: 100%;
+       
+    }
+        
 }
 
 
@@ -186,16 +235,17 @@ footer{
         padding: 2em;
       }
       .r img{
-        height: 75vh;
+        height: 100vh;
         width: 100%;
-       padding-top: 8em;
+        padding-top: 8em ;
+       
        
       }
       .l {
-        width: 40%;
+        width: 45%;
       }
       .l p{
-        font-size: 0.7em;
+        font-size: 0.8em;
       }
       .logo {
         width: 5em;
@@ -205,18 +255,26 @@ footer{
     }
     .divarticle{
         display: flex;
+       align-items: stretch; 
+       
     }
-    article{
-        border: 1.3px solid rgb(27, 27, 27);
-        margin: 50px;
-        width: 25%;
-        display: inline-block;
-        
-    }
+    
     article img {
-        height: 50vh;
+        height: 40vh;
         width: 100%;
     }
+
+    article{
+        border: 1.3px solid rgb(27, 27, 27);
+        width: 25%;
+         display: inline-block;
+         margin-left: 4%;
+        
+    }
+    button.article{
+        left: 42%;
+    }
+    
     .titre{
         background-image: url('/visuals/coffees/589100954.png');
         width: 100%;
@@ -229,8 +287,10 @@ footer{
     
     }
     .titreimg{
-        padding-top: 10%;
-        font-size: 10em;
+        position: relative;
+        top: 1.5em;
+        left: 0.2em;
+        font-size: 8em;
         color: blanchedalmond;
         opacity: 0.75;
     
@@ -266,13 +326,16 @@ footer{
         border-radius: 0.5em ;
         border: solid black;
         background-color: whitesmoke;
-        margin-left: 22%;
-        height: 3em;
-        width: 12em;
+        position: relative;
+        top: 0.8em;
+        
+        font-size: 1em;
+        
     }
-   li{
-    font-size: 1.8em;
-    padding: 0.2em;
+   
+   ul{
+    font-size: 1.2em;
+    width: 90%;
    }
    main{
     background-color: rgb(240, 119, 75);
@@ -324,11 +387,19 @@ footer{
    width: 60%;
     
 }
-.catalogue{
-    margin-left: 40%;
+
+.r {
+    width: 50%;
+    
+}
+.direction{
+    left: 110%;
 }
 
+
 }
+
+
 
 
    @media screen and (min-width:1900px){
