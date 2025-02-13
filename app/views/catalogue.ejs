@@ -19,6 +19,7 @@
                     <li>Caractéristique principale : <%= coffee.caracteristique %></li>
                     <li>Disponible : <%= coffee.dispo %></li>
                     <button class = article2><a href="/detail/<%= coffee.id %>">Découvrir</a></button>
+                    <button class = add > <a href="/favoris/add/<%= coffee.id %>">ajout favoris</a></button>
                 </ul>
             </article>
             <% } %>
@@ -38,7 +39,8 @@
                     <img src="/visuals/coffees/<%= coffee.name %>.png" alt="image café">
                     <li>Caractéristique principale : <%= coffee.caracteristique %></li>
                     <li>Disponible : <%= coffee.dispo %></li>
-                    <button class = article><a href="/detail/<%= coffee.id %>">Découvrir</a></button>
+                    <button class = article2><a href="/detail/<%= coffee.id %>">Découvrir</a></button>
+                    <button class = add > <a href="/favoris/add/<%= coffee.id %>"> ajout favoris</a></button>
                 </ul>
             </article>
 

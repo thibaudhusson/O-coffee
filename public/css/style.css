@@ -58,15 +58,17 @@ article{
     margin-bottom: 2em;
     padding: 1em;
 }
+
 button.article{
     
    position: relative;
-   left: 50%;
+   left: 45%;
     border-radius: 0.7em;
     padding: 0.3em;
     border: 1.3px solid rgb(27, 27, 27);
     
 }
+
 
 .titre{
     background-image: url('/visuals/coffees/589100954.png');
@@ -76,6 +78,7 @@ button.article{
     background-repeat: no-repeat; 
     background-position: center; 
     text-align: center;
+    margin-bottom: 1em ;
 
 }
 .titreimg{
@@ -126,8 +129,8 @@ button.article{
     background-color: whitesmoke;
 }
 main{
-    background-color: rgb(240, 119, 75);
-    color: beige;
+    background-color: lemonchiffon;
+    color: black;
 }
 a{
     text-decoration: none;
@@ -145,10 +148,7 @@ footer{
    font-size: 0.6em;
    background-color: rgb(235, 233, 233);
 }
-.detail{
-    background-color: white;
-    color: black;
-}
+
 .titre3{
     background-image: url('/visuals/coffees/100955894.png');
     width: 100%;
@@ -169,11 +169,10 @@ footer{
 }
 
 .aa{
-    
+    color: black;
     border: 1.3px solid rgb(27, 27, 27);
-     
    margin-top: 1em;
-   background-color: rgb(212, 144, 42);
+   background-color: rgb(195, 193, 193);
 
 }
 
@@ -214,6 +213,19 @@ ul {
     border-radius: 1em;
     font-size: 0.8em;
     border: 1.3px solid rgb(27, 27, 27);
+}
+.detail{
+    background-color: lavenderblush;
+}
+.supp{
+    margin-top: 1em;
+}
+.add{
+    position: relative;
+   left: 25%;
+   border-radius: 3em;
+   font-size: 0.8em;
+   border: 1px solid black;
 }
 
 
@@ -337,10 +349,7 @@ ul {
     font-size: 1.2em;
     width: 90%;
    }
-   main{
-    background-color: rgb(240, 119, 75);
-    color: beige;
-}
+   
 a{
     text-decoration: none;
     color: black;
@@ -356,10 +365,7 @@ footer{
    font-style: italic;
    background-color: rgb(235, 233, 233);
 }
-.detail{
-    background-color: white;
-    color: black;
-}
+
 .titre3{
     background-image: url('/visuals/coffees/100955894.png');
     width: 100%;
@@ -382,7 +388,6 @@ footer{
     
     border: 1.3px solid rgb(27, 27, 27);
    margin-top: 1em;
-   background-color: rgb(212, 144, 42);
    margin-left: 20%;
    width: 60%;
     
@@ -488,8 +493,6 @@ footer{
        }
 
        main{
-        background-color: rgb(240, 119, 75);
-        color: beige;
         margin-bottom: 0;
         padding-bottom: 0;
     }
@@ -509,11 +512,7 @@ footer{
        font-style: italic;
        background-color: rgb(235, 233, 233);
     }
-    .detail{
-        background-color: white;
-        color: black;
-
-    }
+    
     .titre3{
         background-image: url('/visuals/coffees/100955894.png');
         width: 100%;
@@ -536,7 +535,7 @@ footer{
         border: 1.3px solid rgb(27, 27, 27);
          
        margin-top: 1.5em;
-       background-color: rgb(212, 144, 42);
+       background-color: rgb(66, 38, 37);
         width: 50%;
         
     

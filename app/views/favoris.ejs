@@ -1,0 +1,22 @@
+<%- include('./partials/header') %>
+<div class = fav>
+    <% for( coffee of coffees ) { %>
+    
+    
+    <article class = favoris >
+        <h2><%= coffee.name %></h2>
+                <ul>
+                <img src="/visuals/coffees/<%= coffee.name %>.png" alt="image café">
+                <li>Description : <%= coffee.description %></li>
+                <li>Référence : <%= coffee.reference %></li>
+                <li>Origine : <%= coffee.origine %></li>
+                <li>Prix au kilo : <%= coffee.price %> €</li>
+                <li>Caractéristique principale : <%= coffee.caracteristique %></li>
+                <li>Disponible : <%= coffee.dispo %></li>
+                    <button class = supp ><a href="/favoris/delete/<%= coffee.id %>">supprimer</a></button>
+                </ul>
+    </article>
+    <% } %>
+    
+</div>
+<%- include('./partials/footer') %>

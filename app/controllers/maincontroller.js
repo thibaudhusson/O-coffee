@@ -42,6 +42,55 @@ export const mainController = {
     boutiquePage: (req,res) =>{
         res.render('boutique')
     },
+    favorisPage: (req,res) => {
+        try{
+            if(!req.session.fav) {
+                req.session.fav = [];
+            }
+            const coffees =  req.session.fav
+            res.render('favoris',{coffees})
+        } catch (error) {
+            console.log("Erreur serveur", error);
+            res.status(500).send('Erreur serveur...');
+        }
+        
+    },
+    addFavPage: async (req,res) => {
+        try{
+            if(!req.session.fav) {
+                req.session.fav = [];
+            }
+            const requested = Number(req.params.id);
+            const coffee = await dataMapper.coffeeFindById(requested);
+            if(!coffee){
+                res.status(404).render('error')
+                return;
+            }
+            const isAlreadyIn = req.session.fav.find((element)=> element.id === requested);
+            if(isAlreadyIn){
+                res.redirect('/favoris');
+                return;
+            }
+            req.session.fav.push(coffee);
+            res.redirect('/favoris');
+
+        } catch (error) {
+            console.log("Erreur serveur", error);
+            res.status(500).send('Erreur serveur...');
+        }
+        },
+
+    deleteFavPage: async (req,res) => {
+        try {
+            const requested = Number(req.params.id)
+            req.session.fav  = req.session.fav.filter((element) => element.id !== requested);
+            
+            res.redirect('/favoris');
+        } catch(error) {
+            console.log("Erreur serveur", error);
+            res.status(500).send('Erreur serveur...');
+        }
+    },
 
     errorPage: (req,res) =>{
         res.render('error')
