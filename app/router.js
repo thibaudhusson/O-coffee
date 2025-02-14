@@ -11,6 +11,7 @@ router.get('/boutique', mainController.boutiquePage);
 router.get('/favoris',mainController.favorisPage);
 router.get('/favoris/add/:id',mainController.addFavPage);
 router.get('/favoris/delete/:id',mainController.deleteFavPage);
+router.get('/search/category',mainController.categoryPage);
 router.use('/',mainController.errorPage);
 
 export default router;

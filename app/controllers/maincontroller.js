@@ -96,5 +96,17 @@ export const mainController = {
         res.render('error')
     },
 
+    categoryPage: async (req,res) => {
+        const requested = req.query;
+        try{
+            const category = await dataMapper.coffeeByCategory(requested);
+            res.render('catalogueByCategory',{coffees : category});
+
+        } catch(error) {
+            console.log("Erreur serveur", error);
+            res.status(500).send('Erreur serveur...');
+        }
+    }
+
 
 }

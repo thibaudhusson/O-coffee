@@ -6,11 +6,27 @@
             <h1 class = titreimg >Notre catalogue</h1>
         </div>
 
+        <section>
+            <button class = "category"> afficher par category</button>
+
+            <div class="form close">
+                <form action ="/search/category" method="get">
+                    <select name="caracteristique" id="category">
+                    <option value="Corsé">Corsé</option>
+                      <option value="Acide">Acide</option>
+                      <option value="Fruité">Fruité</option>
+                      <option value="Doux">Doux</option>
+                      <option value="Acide">Acide</option>
+                      <option value="Chocolaté">Chocolaté</option> 
+                    </select>
+                    <input type="submit" value="Chercher">
+                </form>
+            </div>
+
+        </section>
         <div>
+            
            <% for( coffee of coffees1 ) { %>
-           
-          
-           
             
             <article>
                 <h2><%= coffee.name %></h2>

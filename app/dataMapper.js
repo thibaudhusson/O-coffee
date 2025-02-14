@@ -1,3 +1,4 @@
+import { text } from "express";
 import client from "./database.js";
 
 export const dataMapper = {
@@ -25,6 +26,14 @@ export const dataMapper = {
         }
         const result = await client.query(query);
         return result.rows[0];
+    },
+    coffeeByCategory: async (e) => {
+        const query = {
+            text: `SELECT * FROM coffee WHERE caracteristique = $1;`,
+            values:[e.caracteristique]
+        }
+        const result = await client.query(query)
+        return result.rows;
     }
 
 }

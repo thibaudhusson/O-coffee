@@ -227,6 +227,34 @@ ul {
    font-size: 0.8em;
    border: 1px solid black;
 }
+.category{
+    position: relative;
+    left: 43%;
+    font-size: 0.8em;
+    border-radius: 2em;
+    border: 1px solid black;
+    margin-bottom: 0.5em;
+    background-color: grey;
+    color: white;
+    padding: 1em;
+}
+.close{
+    display: none;
+}
+
+.form--open{
+    display: block;
+    background-color: gray;
+    color: white;
+    padding: 1em;
+    width: 40%;
+    border-radius: 1em;
+    border: 1px solid black;
+    position: relative;
+    left: 30%;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
 
 
 @media screen and (min-width:800px){
@@ -349,6 +377,7 @@ ul {
     font-size: 1.2em;
     width: 90%;
    }
+  
    
 a{
     text-decoration: none;
@@ -400,6 +429,13 @@ footer{
 .direction{
     left: 110%;
 }
+.add{
+    left: 10%;
+}
+.category{
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
 
 
 }
@@ -533,18 +569,14 @@ footer{
     .aa{
     margin-left: 20%;
         border: 1.3px solid rgb(27, 27, 27);
-         
        margin-top: 1.5em;
        background-color: rgb(66, 38, 37);
         width: 50%;
-        
     
     }
     .catalogue{
         margin-left: 39%;
     }
-    
-      
 
     }
 
