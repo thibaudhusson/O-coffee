@@ -277,7 +277,7 @@ ul {
       .r img{
         height: 100vh;
         width: 100%;
-        padding-top: 8em ;
+        padding-top: 11em ;
        
        
       }
@@ -446,18 +446,18 @@ footer{
    @media screen and (min-width:1900px){
     .acceuil{
         display: flex;
-        gap: 10px;
+        gap: 75px;
         justify-content: flex-start;
         padding: 2em;
       }
       .r img{
-        height: 80vh;
+        height: 100vh;
         width: 100%;
        padding-top: 6em;
        
       }
       .l{
-        width: 50%;
+        width: 45%;
       }
       .logo {
         width: 5em;
@@ -495,6 +495,7 @@ footer{
         font-size: 10em;
         color: blanchedalmond;
         opacity: 0.75;
+        top: 11%;
     
     }
     .btnall{
@@ -576,6 +577,9 @@ footer{
     }
     .catalogue{
         margin-left: 39%;
+    }
+    .direction{
+        left: 45%;
     }
 
     }
