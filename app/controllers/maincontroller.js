@@ -1,10 +1,11 @@
 import { dataMapper } from "../dataMapper.js"
-
+let count = 0
 export const mainController = {
     homePage: async (req,res) => {
        try {
+        count ++
             const coffees = await dataMapper.coffeeFind3ByRandom();
-            res.render('acceuil',{coffees});
+            res.render('acceuil',{coffees,count});
         } catch (error) {
             console.log("Erreur serveur", error);
             res.status(500).send('Erreur serveur...');
